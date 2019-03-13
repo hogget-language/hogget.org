@@ -23,3 +23,21 @@ body {
   color: black;
   font-size: large;
 }
+
+.code-comparison {}
+.code-fn {
+  font-weight: bold;
+  color: royalblue;
+}
+.code-name {
+  color: DarkOrchid;
+}
+.code-str {
+  color: saddlebrown;
+}
+.code-num {
+  color: seagreen;
+}
+.code-comment {
+  color: darkgreen;
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Hogget</title>
-    <meta name="description" content="A programming language lisp dialect with a standard library inspired by Ramda. It uses JavaScript's type system, and it compiles to readable JavaScript." />
+    <meta name="description" content="A lisp dialect with a standard library inspired by Ramda. It uses JavaScript's type system, and it compiles to JavaScript for Node.js and Browsers." />
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="/css/github-markdown.css" />
@@ -26,31 +26,51 @@
       <h1 class="site-title">Hogget</h1>
 
       <blockquote class="introduction">A lisp dialect with a standard library inspired by Ramda.<br>
-        It uses JavaScript's type system, and it compiles to readable JavaScript.</blockquote>
-      <p><strong>Warning</strong>: This programming language was started to learn about compilers and programming language design.
-        It should <em>not</em> be considered stable or relied upon for anything important at this time.</p>
+        It uses JavaScript's type system, and it compiles to JavaScript for Node.js and Browsers.</blockquote>
+      <p><strong>Warning</strong>: This programming language was created to learn about compilers and programming language design.
+        It is currently alpha, <a href="https://semver.org/#spec-item-4">semver v0.y.z</a>.
+        You should <em>not rely upon it</em> for anything important.</p>
+
+      <div>
+        <pre><b>npm</b> install hogget -g
+<b>hgg</b> -i program.hgg -o a.out.js</pre>
+      </div>
 
       <h2>Links</h2>
       <ul>
         <li>
           <a href="https://github.com/hogget-language/compiler#hogget-compiler">Compiler</a>
+          <div><em>installation, compiler options, linting, formatting</em></div>
         </li>
         <li>
-          <a href="https://github.com/hogget-language/examples">Examples</a>
+          <a href="/docs/comparison-to-javascript.html">Comparison to JavaScript</a>
+        </li>
+        <li>
+          <a href="https://github.com/hogget-language/examples">Example code</a>
           <div><em>snippets and programs implemented in Hogget</em></div>
         </li>
-        <li>Language specification
-          <div><em>(coming soon)</em></div></li>
-        <li>Standard library
-          <div><em>(coming soon)</em></div></li>
+        <li>Standard library reference
+          <div><em>(coming soon)</em></div>
+        </li>
+        <li>Syntax highlighters
+          <div><em>(coming soon)</em></div>
+        </li>
       </ul>
 
+      <h2>The Name</h2>
+      <p>A Hogget is a sheep between one and two years of age. Inspired by <a href="https://ramdajs.com/">Ramda</a>,
+        we also like sheep. It's a unique and rememberable name, a short one, it's not yet taken, easily pronounceable,
+        and there's <a href="https://en.wikipedia.org/wiki/List_of_programming_languages#H">not too many languages</a> that start with an H yet.</p>
+
       <footer>
-        <h2>Attribution</h2>
-        The logo is unicode u1F40F from the
-        <a href="https://github.com/mozilla/fxemoji">FirefoxEmoji</a>.
-        See <a href="https://github.com/mozilla/fxemoji/blob/gh-pages/LICENSE.md">license</a>.
+        <h2>License & Attribution</h2>
+        <p>Hogget, it's compiler, the example code and this website are licensed under
+          <a href="https://en.wikipedia.org/wiki/ISC_license">ISC</a>.</p>
+        <p>The <a href="/img/logo/hogget-logo.svg">Hogget logo</a> is unicode number U+1F40F rendered with the
+          <a href="https://github.com/mozilla/fxemoji">FirefoxEmoji</a> set.
+          See <a href="https://github.com/mozilla/fxemoji/blob/gh-pages/LICENSE.md">license</a> for details.</p>
       </footer>
+
     </article>
 
   </body>
