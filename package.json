@@ -1,0 +1,32 @@
+{
+  "name": "hogget.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hogget-language/hogget.org.git"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": [
+    "hgg",
+    "hogget",
+    "programming-language",
+    "functional-programming"
+  ],
+  "author": "Bran van der Meer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hogget-language/hogget.org/issues"
+  },
+  "homepage": "https://hogget.org/",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

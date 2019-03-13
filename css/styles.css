@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 3em;
+}
+
+.site-title {
+  position: relative;
+  padding-left: 1.6em;
+}
+.site-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 2em;
+  height: 1.4em;
+  margin-top: -0.1em;
+  background: url('/img/logo/hogget-logo.svg') no-repeat;
+}
+
+.markdown-body .introduction {
+  color: black;
+  font-size: large;
+}
